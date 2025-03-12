@@ -55,8 +55,8 @@ class Pipeline:
         # Pass Lithops config to Dataplug
         # Only AWS is supported, temporary credentials are not supported
         self.dataplug_config = {
-            "aws_access_key_id": "AKIA2NBDXJQYKU5OAYFG",
-            "aws_secret_access_key": "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",
+            "aws_access_key_id": "aws_access_key_id",
+            "aws_secret_access_key": "aws_secret_access_key",
             "region_name": self.config['aws']['region'],
         }
 

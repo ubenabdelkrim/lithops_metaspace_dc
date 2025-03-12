@@ -186,8 +186,8 @@ def chunk_spectra(pw, ibd_cobject, imzml_reader_cobject, imzml_reader, on_the_fl
             ImzML,
             f"s3://{ibd_cobject.bucket}/{ibd_cobject.key}",
             storage_config={
-                "aws_access_key_id": "AKIA2NBDXJQYKU5OAYFG",
-                "aws_secret_access_key": "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",
+                "aws_access_key_id": "aws_access_key_id",
+                "aws_secret_access_key": "aws_secret_access_key,
                 "region_name": "eu-west-1",
             }
         )
